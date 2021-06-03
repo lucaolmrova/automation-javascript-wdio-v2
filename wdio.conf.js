@@ -15,8 +15,8 @@ exports.config = {
         acceptInsecureCerts: true,
         'goog:chromeOptions': {
             args: [
-                // '--window-size=1920,1080',
-                // '--headless',
+                '--window-size=1920,1080',
+                //'--headless',
                 '--no-sandbox',
                 '--disable-gpu',
                 '--disable-setuid-sandbox',
