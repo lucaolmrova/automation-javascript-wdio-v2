@@ -40,7 +40,7 @@ describe("Fill in form without all valid information", () => {
     const lastNameFailed = $('div.justify-content-md-center:nth-child(2) > div:nth-child(1) > div:nth-child(3)')
     expect(lastNameFailed).toBeDisplayed();
   });
-/* zkousela jsem ruzne varianty, aby slo zautomatizovat vyplneni formulare bez vyplneni delky predplatneho, ale zadna varianta mi neprosla, posilam tedy, jak bych to teoreticky zkusila, pokud by to proslo:
+/* zkousela jsem ruzne varianty, aby slo zautomatizovat vyplneni formulare bez vyplneni delky predplatneho, ale zadna varianta mi neprosla at jsem se snazila sebevic, posilam tedy, jak bych to teoreticky zkusila, pokud by to proslo:
   it("Subcription length to have invalid value", () => {
     VouchersPage.firstNameField.setValue('Luca');
     VouchersPage.lastNameField.setValue('Olmrova');
